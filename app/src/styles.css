@@ -1,1 +1,42 @@
 /* You can add global styles to this file, and also import other style files */
+.logo-img{
+height:70px;
+}
+.navbar{
+    background:#fff;
+}
+.navbar li a{
+    color:#777;
+    font-family: Segoe UI,SegoeUI,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 20px;
+    padding: 11px 15px;
+    text-transform: none;
+    font-weight: 100;
+    -webkit-transitio: all 0.2s linear 0s;
+    -moz-transition: all 0.2s linear 0s;
+    -o-transition: all 0.2s linear 0s;
+    transition: all 0.2s linear 0s;
+    letter-spacing: 0.5px;
+    border-right: 1px solid rgba(255,255,255,0.1);
+}
+.freetextsearch {
+    background: #f1c40f;
+    padding: 12px 110px 12px 12px;
+    margin-bottom: 10px;
+}
+.txtEnabledSearch {
+    border: 1px solid #f1c40f;
+    padding: 8px 10px;
+    width: 100%;
+}
+.search-btn {
+    background: #085b9a;
+    color: #fff;
+    padding: 8px 20px;
+    position: relative;
+    right: 12px;
+    top: 14px;
+    float:right;
+    margin-top:-80px !important;
+}
