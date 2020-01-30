@@ -22,4 +22,10 @@ describe('HomeComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+  it('should show find a vehicle filter', () => {
+    expect(fixture.nativeElement.querySelector('[data-test="vehicle filter"]')).toBeTruthy();
+  });
+  it('should show carmake list', () => {
+    expect(fixture.nativeElement.querySelector('[data-test="carmake"]')).toBeTruthy();
+  });
 });
